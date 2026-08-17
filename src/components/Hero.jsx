@@ -22,10 +22,8 @@ export default function Hero() {
 
         <div className="hero-btns-anim flex gap-4 justify-center flex-wrap">
          
-          <Link to="/hair-id"className="inline-block font-sans text-[11px] font-medium tracking-[0.28em] uppercase no-underline px-10 py-[17px] bg-transparent text-cream/70 border border-cream/20 transition-all duration-300 hover:border-gold hover:text-gold hover:-translate-y-1 hover:shadow-[0_12px_30px_rgba(201,146,42,0.12)]"
-            >
-            Take Your Hair ID Quiz
-          </Link>
+          
+          <a href="https://evolvequizapp.vercel.app/" className="inline-block font-sans text-[11px] font-medium tracking-[0.28em] uppercase no-underline px-10 py-[17px] bg-transparent text-cream/70 border border-cream/20 transition-all duration-300 hover:border-gold hover:text-gold hover:-translate-y-1 hover:shadow-[0_12px_30px_rgba(201,146,42,0.12)]"> Take Your Hair ID Quiz</a>
         </div>
 
         <div className="hero-pills-anim flex gap-4 justify-center mt-7">

@@ -37,10 +37,11 @@ export default function ForHer() {
             EVOLVE starts differently — with a Hair ID diagnostic that tells her, in minutes, what her porosity, density, and scalp actually are, instead of what a bottle's marketing assumes. From there, one routine. Not fifteen products guessed at random, but a prepoo treatment mapped to her exact Hair ID, with instructions written for her curl pattern — not a stranger's.
           </p>
 
-          <Link to="/hair-id"
+          <a href="https://evolvequizapp.vercel.app/"
             className="inline-flex items-center gap-2 font-sans text-[11px] font-medium tracking-[0.28em] uppercase no-underline px-10 py-[17px] bg-transparent text-gold border border-gold/30 transition-all duration-300 hover:border-gold hover:bg-gold/10 hover:-translate-y-1">
             Find Her Hair ID <span aria-hidden="true">→</span>
-          </Link>
+          </a>
+         
         </div>
 
         <div className="r d2 flex flex-col gap-5">
