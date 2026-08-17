@@ -53,15 +53,7 @@ export default function HomeTeaser() {
           ))}
         </div>
 
-        <div className="text-center mt-16">
-          <Link to="/program"
-            className="r inline-block font-sans text-[11px] font-medium tracking-[0.28em] uppercase no-underline px-14 py-[18px] bg-terra text-cream transition-all duration-300 hover:bg-[#a84e20] hover:-translate-y-1 hover:shadow-[0_16px_40px_rgba(194,98,45,0.28)]">
-            See the 2-Month Programme
-          </Link>
-          <p className="r text-[12px] tracking-[0.06em] text-cream/40 mt-5">
-            Free first session · ₦15,000/month · Only 10 spots per cohort
-          </p>
-        </div>
+       
       </div>
     </section>
   );

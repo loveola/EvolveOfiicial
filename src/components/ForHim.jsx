@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 const problems = [
   {
     roman: 'I.',   head: 'Scalp dryness and dandruff',
@@ -40,7 +42,59 @@ export default function ForHim() {
           </p>
         </div>
 
-        {/* Problems */}
+        {/* ── The Masculinity Paradox ── */}
+        <div className="px-10 py-24 border-b border-[rgba(180,140,50,0.08)] relative overflow-hidden">
+          <div className="absolute -right-32 top-0 w-[420px] h-[420px] rounded-full bg-[radial-gradient(circle,rgba(194,98,45,0.10)_0%,transparent_70%)] pointer-events-none" />
+
+          <div className="relative z-10">
+            <span className="r text-[10px] tracking-[0.38em] uppercase text-[rgba(180,140,50,0.7)] block mb-6">The Irony Nobody Explains</span>
+                  <h3 className="r font-display font-light text-[clamp(32px,5.5vw,58px)] leading-[1.08] text-cream mb-9 max-w-[820px]">
+              The same thing that makes him <em className="italic text-terra">more of a man</em> is often the same thing<br className="hidden sm:block" /> taking his hair.
+            </h3>
+
+            <div className="grid grid-cols-1 lg:grid-cols-[1.1fr_0.9fr] gap-14 items-start">
+              <div>
+                <p className="r text-[16px] leading-[1.95] text-cream/55 mb-6 max-w-[560px]">
+                  Testosterone builds the beard, the frame, the voice that drops an octave. But converted in the scalp, that same hormone becomes DHT — and for a lot of men, DHT is exactly what shrinks the follicle that used to hold a full head of hair. The more dominant the hormone, the more vulnerable the hairline. Nobody hands a man that fact when he's twenty-two and just starting to notice his temples.
+                </p>
+                <p className="r text-[16px] leading-[1.95] text-cream/55 max-w-[560px]">
+                  So he's left thinking it's the durag. The pomade. The fade he got last week. He blames the barber, the water, the stress — anything but the truth: this was never a grooming mistake. It's biology working exactly as it's built to. And biology, once you actually understand it, is something you can work with — not something you have to silently lose to.
+                </p>
+              </div>
+
+              <div className="flex flex-col gap-4">
+                <div className="border border-[rgba(180,140,50,0.15)] bg-[rgba(20,36,26,0.5)] px-7 py-6">
+                  <div className="font-display font-light text-[15px] text-gold mb-2">What's actually happening</div>
+                  <p className="text-[13px] leading-[1.8] text-cream/50">
+                    DHT sensitivity gradually shrinks certain follicles over time — a process called androgenic thinning. It's genetic, hormonal, and almost never explained to the men going through it.
+                  </p>
+                </div>
+                <div className="border border-[rgba(180,140,50,0.15)] bg-[rgba(20,36,26,0.5)] px-7 py-6">
+                  <div className="font-display font-light text-[15px] text-terra mb-2">What EVOLVE won't do</div>
+                  <p className="text-[13px] leading-[1.8] text-cream/50">
+                    Promise to reverse your genetics. No honest brand can — and any that claims to is selling you a lie dressed up as hope.
+                  </p>
+                </div>
+                <div className="border border-gold/25 bg-gold/5 px-7 py-6">
+                  <div className="font-display font-light text-[15px] text-gold mb-2">What EVOLVE does instead</div>
+                  <p className="text-[13px] leading-[1.8] text-cream/60">
+                    Reads your Hair ID to show you exactly where you stand, then builds the routine that protects what you have and slows what's still in your control — starting now, not after it's already gone.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="mt-12">
+              <Link
+                to="/hair-id"
+                className="r inline-block font-sans text-[11px] font-medium tracking-[0.28em] uppercase no-underline px-10 py-[17px] bg-terra text-cream transition-all duration-300 hover:bg-[#a84e20] hover:-translate-y-1 hover:shadow-[0_16px_40px_rgba(194,98,45,0.28)]"
+              >
+                Find Out Where You Stand →
+              </Link>
+            </div>
+          </div>
+        </div>
+         {/* Problems */}
         <div className="px-10 py-20 border-b border-[rgba(180,140,50,0.08)]">
           <p className="r text-[10px] tracking-[0.38em] uppercase text-[rgba(180,140,50,0.6)] mb-10 block">What Nigerian men actually deal with — and nobody talks about</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-px bg-[rgba(180,140,50,0.1)] border border-[rgba(180,140,50,0.1)]">
@@ -68,4 +122,4 @@ export default function ForHim() {
       </div>
     </section>
   );
-} 
+}

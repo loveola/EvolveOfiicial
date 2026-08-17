@@ -13,7 +13,7 @@ export function Promise() {
   );
 }
 
-export function Book() {
+/*export function Book() {
   return (
     <section className="bg-terra py-[120px] px-10 text-center relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-br from-black/20 to-transparent pointer-events-none" />
@@ -39,4 +39,4 @@ export function Book() {
       </div>
     </section>
   );
-}
+}*/
