@@ -253,7 +253,7 @@ export default function OurStory() {
 
           <div className="flex flex-col gap-7">
             <div className="founder-img-frame mb-8">
-              <img src="/linkdln image.jpg" alt="Founder of EVOLVE" className="w-full rounded-sm" />
+              <img src="\linkdln image.jpg" alt="Founder of EVOLVE" className="w-full rounded-sm" />
             </div>
             <blockquote className="border-l-[3px] border-terra pl-7 py-5">
               <p className="font-display italic font-light text-[clamp(19px,2.4vw,26px)] text-terra leading-[1.45]">
@@ -382,7 +382,7 @@ export default function OurStory() {
         <div className="max-w-[1080px] mx-auto grid grid-cols-1 lg:grid-cols-[480px_1fr] gap-[88px] items-start relative z-10">
           <div className="relative">
             <div className="founder-img-frame">
-              <img src="evolve founder image.jpg" alt="Founder of EVOLVE" className="w-full h-[600px] object-cover object-top block filter contrast-[1.03] saturate-[0.93]" />
+              <img src="\evolve founder image.jpg" alt="Founder of EVOLVE" className="w-full h-[600px] object-cover object-top block filter contrast-[1.03] saturate-[0.93]" />
             </div>
             <div className="w-14 h-[3px] bg-gradient-to-r from-gold via-goldl to-transparent mt-8" />
           </div>

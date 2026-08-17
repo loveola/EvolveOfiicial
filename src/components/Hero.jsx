@@ -21,9 +21,7 @@ export default function Hero() {
         </h1>
 
         <div className="hero-btns-anim flex gap-4 justify-center flex-wrap">
-          <Link to="/program" className="inline-block font-sans text-[11px] font-medium tracking-[0.28em] uppercase no-underline px-14 py-[18px] bg-terra text-cream transition-all duration-300 hover:bg-[#a84e20] hover:-translate-y-1 hover:shadow-[0_16px_40px_rgba(194,98,45,0.28)]">
-            See the Program
-          </Link>
+         
           <Link to="/hair-id"className="inline-block font-sans text-[11px] font-medium tracking-[0.28em] uppercase no-underline px-10 py-[17px] bg-transparent text-cream/70 border border-cream/20 transition-all duration-300 hover:border-gold hover:text-gold hover:-translate-y-1 hover:shadow-[0_12px_30px_rgba(201,146,42,0.12)]"
             >
             Take Your Hair ID Quiz
@@ -31,15 +29,15 @@ export default function Hero() {
         </div>
 
         <div className="hero-pills-anim flex gap-4 justify-center mt-7">
-          <a href="#for-her"
-            className="text-[10px] tracking-[0.28em] uppercase px-6 py-2 border border-gold/30 text-gold no-underline transition-all duration-300 hover:bg-gold/10 hover:border-gold">
-            For Her →
-          </a>
-          <a href="#for-him"
-            className="text-[10px] tracking-[0.28em] uppercase px-6 py-2 border border-terra/30 text-terra no-underline transition-all duration-300 hover:bg-terra/10 hover:border-terra">
-            For Him →
-          </a>
-        </div>
+  <Link to="/for-her"
+    className="text-[10px] tracking-[0.28em] uppercase px-6 py-2 border border-gold/30 text-gold no-underline transition-all duration-300 hover:bg-gold/10 hover:border-gold">
+    For Her →
+  </Link>
+  <Link to="/for-him"
+    className="text-[10px] tracking-[0.28em] uppercase px-6 py-2 border border-terra/30 text-terra no-underline transition-all duration-300 hover:bg-terra/10 hover:border-terra">
+    For Him →
+  </Link>
+</div>
       </div>
     </section>
   );

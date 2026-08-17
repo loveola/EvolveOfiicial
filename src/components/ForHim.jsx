@@ -38,7 +38,7 @@ export default function ForHim() {
         {/* Truth */}
         <div className="r px-10 py-[72px] border-b border-[rgba(180,140,50,0.08)]">
           <p className="font-display italic font-light text-[clamp(19px,2.8vw,28px)] text-cream/20 leading-[1.7] max-w-[780px]">
-            The Nigerian man has been sold shampoo, pomade, and silence. No brand has ever sat with him and asked: what is your scalp type? What is your porosity? What does your hair actually need to grow and thrive? EVOLVE is the first to ask — and the first to answer with a system built around his Hair ID.
+            The Nigerian man has been sold shampoo, pomade, and silence. No brand has ever sat with him and asked: what is your scalp type? What is your porosity? What does your hair actually need to grow and thrive? EVOLVE is the first to ask  and the first to answer with a system built around his Hair ID.
           </p>
         </div>
 
@@ -55,10 +55,10 @@ export default function ForHim() {
             <div className="grid grid-cols-1 lg:grid-cols-[1.1fr_0.9fr] gap-14 items-start">
               <div>
                 <p className="r text-[16px] leading-[1.95] text-cream/55 mb-6 max-w-[560px]">
-                  Testosterone builds the beard, the frame, the voice that drops an octave. But converted in the scalp, that same hormone becomes DHT — and for a lot of men, DHT is exactly what shrinks the follicle that used to hold a full head of hair. The more dominant the hormone, the more vulnerable the hairline. Nobody hands a man that fact when he's twenty-two and just starting to notice his temples.
+                  Testosterone builds the beard, the frame, the voice that drops an octave. But converted in the scalp, that same hormone becomes DHT  and for a lot of men, DHT is exactly what shrinks the follicle that used to hold a full head of hair. The more dominant the hormone, the more vulnerable the hairline. Nobody hands a man that fact when he's twenty two and just starting to notice his temples.
                 </p>
                 <p className="r text-[16px] leading-[1.95] text-cream/55 max-w-[560px]">
-                  So he's left thinking it's the durag. The pomade. The fade he got last week. He blames the barber, the water, the stress — anything but the truth: this was never a grooming mistake. It's biology working exactly as it's built to. And biology, once you actually understand it, is something you can work with — not something you have to silently lose to.
+                  So he's left thinking it's the durag. The pomade. The fade he got last week. He blames the barber, the water, the stress  anything but the truth: this was never a grooming mistake. It's biology working exactly as it's built to. And biology, once you actually understand it, is something you can work with  not something you have to silently lose to.
                 </p>
               </div>
 
@@ -66,7 +66,7 @@ export default function ForHim() {
                 <div className="border border-[rgba(180,140,50,0.15)] bg-[rgba(20,36,26,0.5)] px-7 py-6">
                   <div className="font-display font-light text-[15px] text-gold mb-2">What's actually happening</div>
                   <p className="text-[13px] leading-[1.8] text-cream/50">
-                    DHT sensitivity gradually shrinks certain follicles over time — a process called androgenic thinning. It's genetic, hormonal, and almost never explained to the men going through it.
+                    DHT sensitivity gradually shrinks certain follicles over time a process called androgenic thinning. It's genetic, hormonal, and almost never explained to the men going through it.
                   </p>
                 </div>
                 <div className="border border-[rgba(180,140,50,0.15)] bg-[rgba(20,36,26,0.5)] px-7 py-6">
@@ -112,7 +112,7 @@ export default function ForHim() {
         <div className="px-10 py-20 pb-[120px]">
           <div className="max-w-[680px] mx-auto text-center">
             <p className="r font-display italic font-light text-[clamp(20px,3vw,30px)] text-cream/20 leading-[1.55] mb-11">
-              "Hair care was never just for women. EVOLVE was built for everyone whose hair was never given the guidance it deserved — and that includes him."
+              "Hair care was never just for women. EVOLVE was built for everyone whose hair was never given the guidance it deserved and that includes him."
             </p>
             <a href="/program" className="r inline-block font-sans text-[11px] font-medium tracking-[0.28em] uppercase no-underline px-10 py-[17px] bg-transparent text-cream/70 border border-cream/22 transition-all duration-300 hover:border-gold hover:text-gold hover:-translate-y-1">
               Join the Program
