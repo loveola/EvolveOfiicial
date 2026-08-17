@@ -46,9 +46,6 @@ export default function Navbar() {
             {label}
           </Link>
         ))}
-        <Link to="/book" onClick={() => setMenuOpen(false)} className="text-[13px] tracking-[0.22em] uppercase text-gold no-underline hover:text-goldl transition-colors duration-300">
-          Book Free Call →
-        </Link>
       </div>
     </>
   );
