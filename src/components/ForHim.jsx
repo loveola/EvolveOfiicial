@@ -85,12 +85,14 @@ export default function ForHim() {
             </div>
 
             <div className="mt-12">
-              <Link
-                to="/hair-id"
+              <a
+                href="https://evolvequizapp.vercel.app/"
                 className="r inline-block font-sans text-[11px] font-medium tracking-[0.28em] uppercase no-underline px-10 py-[17px] bg-terra text-cream transition-all duration-300 hover:bg-[#a84e20] hover:-translate-y-1 hover:shadow-[0_16px_40px_rgba(194,98,45,0.28)]"
               >
                 Find Out Where You Stand →
-              </Link>
+              </a>
+             
+         
             </div>
           </div>
         </div>
@@ -114,9 +116,6 @@ export default function ForHim() {
             <p className="r font-display italic font-light text-[clamp(20px,3vw,30px)] text-cream/20 leading-[1.55] mb-11">
               "Hair care was never just for women. EVOLVE was built for everyone whose hair was never given the guidance it deserved and that includes him."
             </p>
-            <a href="/program" className="r inline-block font-sans text-[11px] font-medium tracking-[0.28em] uppercase no-underline px-10 py-[17px] bg-transparent text-cream/70 border border-cream/22 transition-all duration-300 hover:border-gold hover:text-gold hover:-translate-y-1">
-              Join the Program
-            </a>
           </div>
         </div>
       </div>
